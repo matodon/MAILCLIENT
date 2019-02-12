@@ -19,3 +19,9 @@ Builder tag := method(name, nodes,
         doMessage(nodes))
     )
     nodes = nodes next
+  )
+  "<#{name}#{attrs}>#{inner}</#{name}>" interpolate
+)
+
+Builder forward := method(
+  tag(call message name, call message argAt(0))
