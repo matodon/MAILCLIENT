@@ -12,3 +12,5 @@ Builder tag := method(name, nodes,
     attrs := " class='" .. attrs slice(1) join(" ") .. "'",
     attrs := ""
   )
+  while(nodes,
+    if(nodes name != ";",
