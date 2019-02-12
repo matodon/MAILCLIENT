@@ -14,3 +14,8 @@ Builder tag := method(name, nodes,
   )
   while(nodes,
     if(nodes name != ";",
+      inner = inner .. if(nodes argCount > 0, 
+        tag(nodes name, nodes argAt(0)), 
+        doMessage(nodes))
+    )
+    nodes = nodes next
