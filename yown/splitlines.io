@@ -10,3 +10,10 @@ Sequence hasSlot("splitLines") ifFalse(
 
 		nextCrIndex := nil
 		nextLfIndex := nil
+
+		while(lineStart < size,
+			nextCrIndex = findSeq("\r", lineStart)
+			nextLfIndex = findSeq("\n", lineStart)
+
+			if(nextCrIndex and nextLfIndex,
+				if(nextCrIndex < nextLfIndex,
