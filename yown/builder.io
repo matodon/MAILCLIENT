@@ -25,3 +25,4 @@ Builder tag := method(name, nodes,
 
 Builder forward := method(
   tag(call message name, call message argAt(0))
+)
