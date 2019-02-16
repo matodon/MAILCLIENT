@@ -17,3 +17,4 @@ Sequence hasSlot("splitLines") ifFalse(
 
 			if(nextCrIndex and nextLfIndex,
 				if(nextCrIndex < nextLfIndex,
+					nextLfIndex = nil,
