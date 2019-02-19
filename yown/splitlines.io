@@ -29,3 +29,6 @@ Sequence hasSlot("splitLines") ifFalse(
 				,
 					lineStart = nextCrIndex + 1
 				)
+			,
+				if(nextLfIndex,
+					resultList append(slice(lineStart, nextLfIndex))
