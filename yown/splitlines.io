@@ -23,3 +23,9 @@ Sequence hasSlot("splitLines") ifFalse(
 			)
 
 			if(nextCrIndex,
+				resultList append(slice(lineStart, nextCrIndex))
+				if(at(nextCrIndex + 1) == 10,
+					lineStart = nextCrIndex + 2
+				,
+					lineStart = nextCrIndex + 1
+				)
