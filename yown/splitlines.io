@@ -32,3 +32,7 @@ Sequence hasSlot("splitLines") ifFalse(
 			,
 				if(nextLfIndex,
 					resultList append(slice(lineStart, nextLfIndex))
+					lineStart = nextLfIndex + 1
+				,
+					break
+				)
