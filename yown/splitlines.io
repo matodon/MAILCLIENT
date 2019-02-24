@@ -36,3 +36,10 @@ Sequence hasSlot("splitLines") ifFalse(
 				,
 					break
 				)
+			)
+		)
+
+		resultList append(slice(lineStart, size))
+
+		return resultList
+	)
