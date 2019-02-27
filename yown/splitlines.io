@@ -43,3 +43,4 @@ Sequence hasSlot("splitLines") ifFalse(
 
 		return resultList
 	)
+)
