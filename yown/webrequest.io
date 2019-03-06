@@ -1,2 +1,3 @@
 //
-// Stolen from the Io Socket add
+// Stolen from the Io Socket addon
+// 
