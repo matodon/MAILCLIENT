@@ -3,4 +3,4 @@
 // the web request object
 //
 // Use:
-//   req comman
+//   req command   -> the
