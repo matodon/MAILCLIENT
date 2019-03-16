@@ -4,4 +4,4 @@
 //
 // Use:
 //   req command   -> the action
-//   req que
+//   req queryP
