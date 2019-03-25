@@ -4,4 +4,4 @@
 //
 // Use:
 //   req command   -> the action
-//   req queryPath ->
+//   req queryPath -> the full 
