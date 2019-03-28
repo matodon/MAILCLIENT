@@ -5,4 +5,4 @@
 // Use:
 //   req command   -> the action
 //   req queryPath -> the full path
-//   req queryArg
+//   req queryArgs -> Map of
