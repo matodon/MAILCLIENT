@@ -8,4 +8,6 @@
 //   req queryArgs -> Map of query vars
 //
 WebRequest := Object clone do(
-  lineMode :=
+  lineMode := 1
+
+  ma
