@@ -11,4 +11,4 @@ WebRequest := Object clone do(
   lineMode := 1
 
   mandatorySpacePattern := "[ \t]+"
-  optionalS
+  optionalSpace
