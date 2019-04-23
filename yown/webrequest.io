@@ -12,4 +12,4 @@ WebRequest := Object clone do(
 
   mandatorySpacePattern := "[ \t]+"
   optionalSpacePattern := "[ \t]*"
-  tok
+  tokenPatte
