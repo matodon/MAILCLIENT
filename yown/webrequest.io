@@ -13,4 +13,6 @@ WebRequest := Object clone do(
   mandatorySpacePattern := "[ \t]+"
   optionalSpacePattern := "[ \t]*"
   tokenPattern := "([^\\x00-\\x1F\\x7F()<>@.;:\\\\\"/[\\]?={} \t]+)"
-  quotedPattern := "\"((?:\\\\\"|[^\"])+\)\"
+  quotedPattern := "\"((?:\\\\\"|[^\"])+\)\""
+
+  hea
