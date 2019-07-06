@@ -16,4 +16,4 @@ WebRequest := Object clone do(
   quotedPattern := "\"((?:\\\\\"|[^\"])+\)\""
 
   headerPattern := "^" .. tokenPattern .. optionalSpacePattern .. ":" .. optionalSpacePattern .. "(.*)$"
-  commandPattern := "^" .. tokenPattern .. mandatorySpa
+  commandPattern := "^" .. tokenPattern .. mandatorySpacePatte
