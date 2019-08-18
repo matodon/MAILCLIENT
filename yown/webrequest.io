@@ -17,4 +17,4 @@ WebRequest := Object clone do(
 
   headerPattern := "^" .. tokenPattern .. optionalSpacePattern .. ":" .. optionalSpacePattern .. "(.*)$"
   commandPattern := "^" .. tokenPattern .. mandatorySpacePattern .. "(.*)$"
-  pairPattern := "^" .. optionalSpacePattern .. tokenPattern .. optionalSpacePattern .. "=" .. op
+  pairPattern := "^" .. optionalSpacePattern .. tokenPattern .. optionalSpacePattern .. "=" .. optionalS
