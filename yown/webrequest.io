@@ -20,4 +20,4 @@ WebRequest := Object clone do(
   pairPattern := "^" .. optionalSpacePattern .. tokenPattern .. optionalSpacePattern .. "=" .. optionalSpacePattern .. "(?:" .. tokenPattern .. "|" .. quotedPattern .. ")(?:;(.*))?$"
   queryPattern := "^([^?]*).(.*)$"
 
-  headerRegex := Regex clone with(head
+  headerRegex := Regex clone with(headerPatte
