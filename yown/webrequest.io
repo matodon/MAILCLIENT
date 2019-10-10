@@ -21,4 +21,4 @@ WebRequest := Object clone do(
   queryPattern := "^([^?]*).(.*)$"
 
   headerRegex := Regex clone with(headerPattern)
-  commandRegex := Regex clone with(commandPatte
+  commandRegex := Regex clone with(commandPattern)
