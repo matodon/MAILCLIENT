@@ -23,3 +23,4 @@ WebRequest := Object clone do(
   headerRegex := Regex clone with(headerPattern)
   commandRegex := Regex clone with(commandPattern)
   pairRegex := Regex clone with(pairPattern)
+  q
