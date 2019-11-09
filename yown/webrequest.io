@@ -26,4 +26,4 @@ WebRequest := Object clone do(
   queryRegex := Regex clone with(queryPattern)
 
   init := method(
-    se
+    self s
