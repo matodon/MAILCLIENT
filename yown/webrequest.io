@@ -27,3 +27,6 @@ WebRequest := Object clone do(
 
   init := method(
     self sentCookies := Map clone
+  )
+
+  li
