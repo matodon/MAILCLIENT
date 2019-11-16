@@ -29,4 +29,4 @@ WebRequest := Object clone do(
     self sentCookies := Map clone
   )
 
-  lineBuffer := m
+  lineBuffer := method
