@@ -30,4 +30,4 @@ WebRequest := Object clone do(
   )
 
   lineBuffer := method(
-    self lineBuffer := Seque
+    self lineBuffer := Sequence cl
