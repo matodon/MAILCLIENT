@@ -31,3 +31,6 @@ WebRequest := Object clone do(
 
   lineBuffer := method(
     self lineBuffer := Sequence clone
+  )
+
+  
