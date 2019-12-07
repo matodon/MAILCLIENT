@@ -33,4 +33,4 @@ WebRequest := Object clone do(
     self lineBuffer := Sequence clone
   )
 
-  
+  rawHea
