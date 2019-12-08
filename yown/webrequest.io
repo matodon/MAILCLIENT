@@ -33,4 +33,5 @@ WebRequest := Object clone do(
     self lineBuffer := Sequence clone
   )
 
-  rawHeaders := method
+  rawHeaders := method(
+  
