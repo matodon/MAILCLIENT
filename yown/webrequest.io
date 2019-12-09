@@ -34,4 +34,4 @@ WebRequest := Object clone do(
   )
 
   rawHeaders := method(
-    
+    self r
