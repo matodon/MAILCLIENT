@@ -34,4 +34,4 @@ WebRequest := Object clone do(
   )
 
   rawHeaders := method(
-    self rawHeaders := L
+    self rawHeaders := List c
