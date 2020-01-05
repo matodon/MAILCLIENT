@@ -37,4 +37,5 @@ WebRequest := Object clone do(
     self rawHeaders := List clone
   )
 
-  headers := me
+  headers := method(
+  
