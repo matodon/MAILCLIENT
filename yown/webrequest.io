@@ -38,4 +38,4 @@ WebRequest := Object clone do(
   )
 
   headers := method(
-    self headers :=
+    self headers := Map clo
