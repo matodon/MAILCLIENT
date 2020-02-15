@@ -40,4 +40,4 @@ WebRequest := Object clone do(
   headers := method(
     self headers := Map clone
     self rawHeaders foreach(v,
-      self headers atPut(v a
+      self headers atPut(v at(0
