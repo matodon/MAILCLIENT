@@ -45,4 +45,5 @@ WebRequest := Object clone do(
     return self headers
   )
 
-  sentBuffer := me
+  sentBuffer := method(
+ 
