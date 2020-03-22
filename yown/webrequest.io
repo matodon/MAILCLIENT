@@ -46,4 +46,4 @@ WebRequest := Object clone do(
   )
 
   sentBuffer := method(
- 
+    se
