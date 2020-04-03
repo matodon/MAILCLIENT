@@ -47,4 +47,6 @@ WebRequest := Object clone do(
 
   sentBuffer := method(
     self sentBuffer := Sequence clone
+  )
+
   
