@@ -51,3 +51,5 @@ WebRequest := Object clone do(
 
   queryArgs := method(
     self parseQuery; return queryArgs
+  )
+
