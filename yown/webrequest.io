@@ -53,4 +53,4 @@ WebRequest := Object clone do(
     self parseQuery; return queryArgs
   )
 
-  queryPa
+  queryPath 
