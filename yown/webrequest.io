@@ -53,4 +53,4 @@ WebRequest := Object clone do(
     self parseQuery; return queryArgs
   )
 
-  queryPath 
+  queryPath := meth
