@@ -54,4 +54,4 @@ WebRequest := Object clone do(
   )
 
   queryPath := method(
-   
+    sel
