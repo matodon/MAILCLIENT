@@ -54,4 +54,5 @@ WebRequest := Object clone do(
   )
 
   queryPath := method(
-    self parseQuery; return que
+    self parseQuery; return queryPath
+  )
