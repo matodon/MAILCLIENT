@@ -57,4 +57,4 @@ WebRequest := Object clone do(
     self parseQuery; return queryPath
   )
 
-  queryCookies 
+  queryCookies := me
