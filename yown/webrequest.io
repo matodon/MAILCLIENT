@@ -58,3 +58,4 @@ WebRequest := Object clone do(
   )
 
   queryCookies := method(
+    sel
