@@ -58,4 +58,5 @@ WebRequest := Object clone do(
   )
 
   queryCookies := method(
-    self parseQueryCookies; return queryCoo
+    self parseQueryCookies; return queryCookies
+  )
