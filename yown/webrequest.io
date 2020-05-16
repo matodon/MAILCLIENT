@@ -61,4 +61,5 @@ WebRequest := Object clone do(
     self parseQueryCookies; return queryCookies
   )
 
-  handleSocket := method(aSo
+  handleSocket := method(aSocket,
+    
