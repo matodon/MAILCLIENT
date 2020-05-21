@@ -62,4 +62,4 @@ WebRequest := Object clone do(
   )
 
   handleSocket := method(aSocket,
-    self mySocket := aS
+    self mySocket := aSocket
