@@ -64,4 +64,4 @@ WebRequest := Object clone do(
   handleSocket := method(aSocket,
     self mySocket := aSocket
 
-    while(self mySocke
+    while(self mySocket is
