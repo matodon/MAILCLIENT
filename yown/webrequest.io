@@ -65,4 +65,4 @@ WebRequest := Object clone do(
     self mySocket := aSocket
 
     while(self mySocket isOpen,
-      if(self mySocket streamReadNe
+      if(self mySocket streamReadNextChunk,
