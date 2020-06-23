@@ -68,4 +68,5 @@ WebRequest := Object clone do(
       if(self mySocket streamReadNextChunk,
         input :=  self mySocket readBuffer
         // writeln(input)
-        self handleInput(input
+        self handleInput(input)
+   
