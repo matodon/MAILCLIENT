@@ -73,4 +73,4 @@ WebRequest := Object clone do(
     )
   )
 
-  handleInput := metho
+  handleInput := method(readB
