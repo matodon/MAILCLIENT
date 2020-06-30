@@ -74,3 +74,4 @@ WebRequest := Object clone do(
   )
 
   handleInput := method(readBuffer,
+ 
