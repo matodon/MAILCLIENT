@@ -75,4 +75,4 @@ WebRequest := Object clone do(
 
   handleInput := method(readBuffer,
     if(lineMode,
-      lineBu
+      lineBuffer ap
