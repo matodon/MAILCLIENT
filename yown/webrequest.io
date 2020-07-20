@@ -76,4 +76,5 @@ WebRequest := Object clone do(
   handleInput := method(readBuffer,
     if(lineMode,
       lineBuffer appendSeq(readBuffer)
-      readBuffer empt
+      readBuffer empty
+
