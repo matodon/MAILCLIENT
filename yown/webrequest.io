@@ -78,4 +78,4 @@ WebRequest := Object clone do(
       lineBuffer appendSeq(readBuffer)
       readBuffer empty
 
-      readLines := lineB
+      readLines := lineBuffer 
