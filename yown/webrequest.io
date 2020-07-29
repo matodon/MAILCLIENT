@@ -79,3 +79,5 @@ WebRequest := Object clone do(
       readBuffer empty
 
       readLines := lineBuffer asString splitLines
+
+     
