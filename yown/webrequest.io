@@ -82,4 +82,4 @@ WebRequest := Object clone do(
 
       rest := readLines pop
 
-      readLines foreach(line, self currentP
+      readLines foreach(line, self currentParse
