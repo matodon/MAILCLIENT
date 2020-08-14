@@ -85,3 +85,4 @@ WebRequest := Object clone do(
       readLines foreach(line, self currentParser(line))
 
       if(lineMode,
+     
