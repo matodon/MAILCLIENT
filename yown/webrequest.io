@@ -86,4 +86,4 @@ WebRequest := Object clone do(
 
       if(lineMode,
         self lineBuffer := rest asBuffer,
-        se
+        self curr
