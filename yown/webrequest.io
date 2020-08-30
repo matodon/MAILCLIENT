@@ -86,4 +86,5 @@ WebRequest := Object clone do(
 
       if(lineMode,
         self lineBuffer := rest asBuffer,
-        self currentParser(rest asString
+        self currentParser(rest asString)
+    
