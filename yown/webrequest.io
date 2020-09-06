@@ -89,4 +89,4 @@ WebRequest := Object clone do(
         self currentParser(rest asString)
       )
     ,
-      self lineBuffer appendS
+      self lineBuffer appendSeq(rea
