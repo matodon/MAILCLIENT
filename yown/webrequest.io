@@ -90,4 +90,4 @@ WebRequest := Object clone do(
       )
     ,
       self lineBuffer appendSeq(readBuffer)
-      self c
+      self currentP
