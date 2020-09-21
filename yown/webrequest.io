@@ -93,3 +93,5 @@ WebRequest := Object clone do(
       self currentParser(readBuffer asString)
     )
   )
+
+  h
