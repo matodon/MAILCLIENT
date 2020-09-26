@@ -94,4 +94,5 @@ WebRequest := Object clone do(
     )
   )
 
-  handleRequest := method(reques
+  handleRequest := method(request,
+    s
