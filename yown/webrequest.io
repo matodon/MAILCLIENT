@@ -95,4 +95,4 @@ WebRequest := Object clone do(
   )
 
   handleRequest := method(request,
-    self sendResponse (200
+    self sendResponse (200, "O
