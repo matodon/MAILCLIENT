@@ -96,4 +96,4 @@ WebRequest := Object clone do(
 
   handleRequest := method(request,
     self sendResponse (200, "OK")
-    self sendHeader ("Con
+    self sendHeader ("Conte
