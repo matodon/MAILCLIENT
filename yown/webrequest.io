@@ -99,3 +99,4 @@ WebRequest := Object clone do(
     self sendHeader ("Content-type", "text/HTML")
     self endHeaders ()
     self close
+  )
