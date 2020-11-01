@@ -102,4 +102,4 @@ WebRequest := Object clone do(
   )
 
 
-  curr
+  currentP
