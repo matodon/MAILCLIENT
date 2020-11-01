@@ -100,3 +100,6 @@ WebRequest := Object clone do(
     self endHeaders ()
     self close
   )
+
+
+  curr
