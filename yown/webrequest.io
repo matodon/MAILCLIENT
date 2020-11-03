@@ -102,4 +102,4 @@ WebRequest := Object clone do(
   )
 
 
-  currentParser :=
+  currentParser := me
