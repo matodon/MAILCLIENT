@@ -102,4 +102,4 @@ WebRequest := Object clone do(
   )
 
 
-  currentParser := me
+  currentParser := method(lin
