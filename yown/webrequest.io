@@ -106,4 +106,5 @@ WebRequest := Object clone do(
     self chainParser("commandParser", line)
   )
 
-  chainParser := method(parserName, l
+  chainParser := method(parserName, line,
+    
