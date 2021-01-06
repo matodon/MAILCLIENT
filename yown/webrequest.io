@@ -110,3 +110,5 @@ WebRequest := Object clone do(
     self currentParser := self getSlot(parserName)
     self currentParser(line)
   )
+
+  
