@@ -108,4 +108,5 @@ WebRequest := Object clone do(
 
   chainParser := method(parserName, line,
     self currentParser := self getSlot(parserName)
-    self currentParser(line
+    self currentParser(line)
+  )
