@@ -111,4 +111,4 @@ WebRequest := Object clone do(
     self currentParser(line)
   )
 
-  commandParser := m
+  commandParser := metho
