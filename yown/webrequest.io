@@ -112,4 +112,4 @@ WebRequest := Object clone do(
   )
 
   commandParser := method(line,
-    match := line matchesOfRegex(self commandRegex) a
+    match := line matchesOfRegex(self commandRegex) all firs
