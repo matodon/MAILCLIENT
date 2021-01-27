@@ -115,4 +115,4 @@ WebRequest := Object clone do(
     match := line matchesOfRegex(self commandRegex) all first
     if(match,
       command := match
-      self command :
+      self command := co
