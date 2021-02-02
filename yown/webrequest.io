@@ -116,4 +116,4 @@ WebRequest := Object clone do(
     if(match,
       command := match
       self command := command at(1)
-      self argumen
+      self arguments :
