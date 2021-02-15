@@ -117,4 +117,5 @@ WebRequest := Object clone do(
       command := match
       self command := command at(1)
       self arguments := command at(2) splitNoEmpties(" ")
- 
+    ,
+   
