@@ -118,4 +118,5 @@ WebRequest := Object clone do(
       self command := command at(1)
       self arguments := command at(2) splitNoEmpties(" ")
     ,
-      self chainParser("headerParser", li
+      self chainParser("headerParser", line)
+   
