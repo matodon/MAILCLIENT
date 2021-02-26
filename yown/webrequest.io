@@ -122,4 +122,4 @@ WebRequest := Object clone do(
     )
   )
 
-  headerParser :=
+  headerParser := method(li
