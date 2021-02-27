@@ -123,3 +123,4 @@ WebRequest := Object clone do(
   )
 
   headerParser := method(line,
+    mat
