@@ -123,4 +123,5 @@ WebRequest := Object clone do(
   )
 
   headerParser := method(line,
-    match := line matchesOfRegex(self headerRegex) al
+    match := line matchesOfRegex(self headerRegex) all first
+  
