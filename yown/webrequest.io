@@ -126,3 +126,4 @@ WebRequest := Object clone do(
     match := line matchesOfRegex(self headerRegex) all first
     if(match,
       header := match
+     
