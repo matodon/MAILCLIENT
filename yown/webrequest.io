@@ -127,4 +127,4 @@ WebRequest := Object clone do(
     if(match,
       header := match
       self rawHeaders append(
-        List clone append(header at(
+        List clone append(header at(1), h
