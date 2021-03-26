@@ -129,3 +129,4 @@ WebRequest := Object clone do(
       self rawHeaders append(
         List clone append(header at(1), header at(2))
       )
+    ,
