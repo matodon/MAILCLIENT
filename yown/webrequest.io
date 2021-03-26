@@ -130,4 +130,4 @@ WebRequest := Object clone do(
         List clone append(header at(1), header at(2))
       )
     ,
-      self cha
+      self chainParser
