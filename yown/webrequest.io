@@ -133,3 +133,5 @@ WebRequest := Object clone do(
       self chainParser("completeParser", line)
     )
   )
+
+  com
