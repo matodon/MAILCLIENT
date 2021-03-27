@@ -134,4 +134,4 @@ WebRequest := Object clone do(
     )
   )
 
-  completeParser 
+  completeParser :=
