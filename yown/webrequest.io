@@ -135,4 +135,5 @@ WebRequest := Object clone do(
   )
 
   completeParser := method(line,
-    if(line size =
+    if(line size == 0,
+ 
