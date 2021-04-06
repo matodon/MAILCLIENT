@@ -137,4 +137,4 @@ WebRequest := Object clone do(
   completeParser := method(line,
     if(line size == 0,
       self determineCommand,
-      Lobby w
+      Lobby write
