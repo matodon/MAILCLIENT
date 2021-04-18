@@ -138,4 +138,5 @@ WebRequest := Object clone do(
     if(line size == 0,
       self determineCommand,
       Lobby write(
-        "Server does not understand http command: '"
+        "Server does not understand http command: '",
+   
