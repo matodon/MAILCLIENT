@@ -140,4 +140,5 @@ WebRequest := Object clone do(
       Lobby write(
         "Server does not understand http command: '",
         line, "'\n"
+      )
  
