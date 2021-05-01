@@ -143,3 +143,5 @@ WebRequest := Object clone do(
       )
     )
   )
+
+  det
