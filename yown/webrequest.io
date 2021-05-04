@@ -145,4 +145,5 @@ WebRequest := Object clone do(
   )
 
   determineCommand := method(
-    if(command == "GE
+    if(command == "GET",
+ 
