@@ -144,4 +144,4 @@ WebRequest := Object clone do(
     )
   )
 
-  determineCommand := meth
+  determineCommand := method(
