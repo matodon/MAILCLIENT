@@ -145,4 +145,4 @@ WebRequest := Object clone do(
   )
 
   determineCommand := method(
-    
+    if(c
