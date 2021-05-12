@@ -146,4 +146,4 @@ WebRequest := Object clone do(
 
   determineCommand := method(
     if(command == "GET",
-      self 
+      self handl
