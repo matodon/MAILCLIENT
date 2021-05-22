@@ -148,4 +148,4 @@ WebRequest := Object clone do(
     if(command == "GET",
       self handleRequest(self)
     ,
-      if(
+      if(comman
