@@ -149,4 +149,4 @@ WebRequest := Object clone do(
       self handleRequest(self)
     ,
       if(command == "POST",
-        self 
+        self lineB
