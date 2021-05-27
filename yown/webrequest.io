@@ -150,4 +150,4 @@ WebRequest := Object clone do(
     ,
       if(command == "POST",
         self lineBuffer empty
-        se
+        self c
