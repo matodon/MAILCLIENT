@@ -150,4 +150,5 @@ WebRequest := Object clone do(
     ,
       if(command == "POST",
         self lineBuffer empty
-        self currentParser := self getSlot("formParse
+        self currentParser := self getSlot("formParser")
+   
