@@ -154,4 +154,4 @@ WebRequest := Object clone do(
         self contentLength := self headers at(
           "Content-Length"
         )
-        se
+        self lineM
