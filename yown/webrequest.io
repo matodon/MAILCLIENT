@@ -154,4 +154,5 @@ WebRequest := Object clone do(
         self contentLength := self headers at(
           "Content-Length"
         )
-        self lineMode = ni
+        self lineMode = nil
+ 
