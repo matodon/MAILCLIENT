@@ -159,4 +159,5 @@ WebRequest := Object clone do(
     )
   )
 
-  formParser := method(data
+  formParser := method(data,
+    lin
