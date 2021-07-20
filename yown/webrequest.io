@@ -160,4 +160,5 @@ WebRequest := Object clone do(
   )
 
   formParser := method(data,
-    lineBuffer appendSeq(da
+    lineBuffer appendSeq(data)
+  
