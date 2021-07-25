@@ -161,4 +161,4 @@ WebRequest := Object clone do(
 
   formParser := method(data,
     lineBuffer appendSeq(data)
-    if(lineBuff
+    if(lineBuffer si
