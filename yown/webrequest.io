@@ -162,4 +162,4 @@ WebRequest := Object clone do(
   formParser := method(data,
     lineBuffer appendSeq(data)
     if(lineBuffer size >= contentLength,
-      self qu
+      self queryPat
