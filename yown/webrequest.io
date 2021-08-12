@@ -163,4 +163,5 @@ WebRequest := Object clone do(
     lineBuffer appendSeq(data)
     if(lineBuffer size >= contentLength,
       self queryPath := self arguments at(0)
-      self queryArgs := CGI parseStr
+      self queryArgs := CGI parseString(
+      
