@@ -166,4 +166,5 @@ WebRequest := Object clone do(
       self queryArgs := CGI parseString(
         lineBuffer asString
       )
-      self handleRequest(s
+      self handleRequest(self)
+   
