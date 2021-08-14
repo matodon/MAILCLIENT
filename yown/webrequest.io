@@ -167,4 +167,4 @@ WebRequest := Object clone do(
         lineBuffer asString
       )
       self handleRequest(self)
-   
+      line
