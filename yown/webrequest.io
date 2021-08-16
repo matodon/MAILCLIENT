@@ -171,4 +171,5 @@ WebRequest := Object clone do(
     )
   )
 
-  parseQuery := m
+  parseQuery := method(
+   
