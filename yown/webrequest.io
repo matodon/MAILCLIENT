@@ -172,4 +172,4 @@ WebRequest := Object clone do(
   )
 
   parseQuery := method(
-    // This method is invok
+    // This method is invoked laz
