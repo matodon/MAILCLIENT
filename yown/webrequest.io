@@ -172,4 +172,5 @@ WebRequest := Object clone do(
   )
 
   parseQuery := method(
-    // This method is invoked lazily by queryPath and query
+    // This method is invoked lazily by queryPath and queryArgs
+  
