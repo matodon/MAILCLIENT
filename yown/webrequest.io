@@ -174,4 +174,4 @@ WebRequest := Object clone do(
   parseQuery := method(
     // This method is invoked lazily by queryPath and queryArgs
     query := self arguments at(0) asString
-    if(query fi
+    if(query findSeq
