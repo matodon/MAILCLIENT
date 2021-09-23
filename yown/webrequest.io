@@ -175,4 +175,5 @@ WebRequest := Object clone do(
     // This method is invoked lazily by queryPath and queryArgs
     query := self arguments at(0) asString
     if(query findSeq("?"),
-      match := query matchesOfRegex(self queryRegex) all firs
+      match := query matchesOfRegex(self queryRegex) all first
+     
