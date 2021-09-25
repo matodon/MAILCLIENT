@@ -176,4 +176,5 @@ WebRequest := Object clone do(
     query := self arguments at(0) asString
     if(query findSeq("?"),
       match := query matchesOfRegex(self queryRegex) all first
-      self queryPath := match at(
+      self queryPath := match at(1)
+
