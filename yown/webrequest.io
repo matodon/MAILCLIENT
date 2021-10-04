@@ -178,4 +178,4 @@ WebRequest := Object clone do(
       match := query matchesOfRegex(self queryRegex) all first
       self queryPath := match at(1)
 
-      self queryArgs := CGI pa
+      self queryArgs := CGI parseS
