@@ -180,4 +180,5 @@ WebRequest := Object clone do(
 
       self queryArgs := CGI parseString(
         match at(2)
-     
+      )
+    ,
