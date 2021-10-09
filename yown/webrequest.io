@@ -179,4 +179,5 @@ WebRequest := Object clone do(
       self queryPath := match at(1)
 
       self queryArgs := CGI parseString(
-        match at(
+        match at(2)
+ 
