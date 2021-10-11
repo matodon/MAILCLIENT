@@ -182,4 +182,4 @@ WebRequest := Object clone do(
         match at(2)
       )
     ,
-      s
+      self
