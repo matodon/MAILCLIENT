@@ -182,4 +182,5 @@ WebRequest := Object clone do(
         match at(2)
       )
     ,
-      self queryPath := qu
+      self queryPath := query
+  
