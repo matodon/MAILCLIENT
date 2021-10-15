@@ -183,4 +183,4 @@ WebRequest := Object clone do(
       )
     ,
       self queryPath := query
-  
+      s
