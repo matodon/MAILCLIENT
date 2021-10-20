@@ -187,4 +187,4 @@ WebRequest := Object clone do(
     )
   )
 
-  parseQueryCo
+  parseQueryCookies 
