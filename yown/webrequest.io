@@ -188,4 +188,5 @@ WebRequest := Object clone do(
   )
 
   parseQueryCookies := method(
-    cookieHeader := self headers at("Cookie"
+    cookieHeader := self headers at("Cookie")
+
