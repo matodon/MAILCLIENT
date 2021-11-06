@@ -193,4 +193,5 @@ WebRequest := Object clone do(
     self queryCookies := Map clone
 
     loop(
-      cookieHeader ifNil(re
+      cookieHeader ifNil(return)
+ 
