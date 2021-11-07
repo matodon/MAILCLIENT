@@ -194,4 +194,4 @@ WebRequest := Object clone do(
 
     loop(
       cookieHeader ifNil(return)
-      results := cookieHe
+      results := cookieHeader mat
