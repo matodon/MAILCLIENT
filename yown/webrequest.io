@@ -194,4 +194,4 @@ WebRequest := Object clone do(
 
     loop(
       cookieHeader ifNil(return)
-      results := cookieHeader matchesOfRegex(pa
+      results := cookieHeader matchesOfRegex(pairRegex
