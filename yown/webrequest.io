@@ -198,4 +198,4 @@ WebRequest := Object clone do(
       results ifNil(return)
 
       if(results at(2) == "",
-        self query
+        self queryCo
