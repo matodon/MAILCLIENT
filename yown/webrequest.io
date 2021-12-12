@@ -199,4 +199,4 @@ WebRequest := Object clone do(
 
       if(results at(2) == "",
         self queryCookies atPut(
-          results at(1), res
+          results at(1), result
