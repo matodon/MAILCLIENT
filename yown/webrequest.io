@@ -203,4 +203,4 @@ WebRequest := Object clone do(
         )
       ,
         self queryCookies atPut(
-          results at(1), r
+          results at(1), results a
