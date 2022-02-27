@@ -206,4 +206,4 @@ WebRequest := Object clone do(
           results at(1), results at(2)
         )
       )
-      cookieHeade
+      cookieHeader := res
