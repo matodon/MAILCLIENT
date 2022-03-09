@@ -209,4 +209,4 @@ WebRequest := Object clone do(
       cookieHeader := results at(4)
     )
   )
-  sendCookie := metho
+  sendCookie := method(key, val
