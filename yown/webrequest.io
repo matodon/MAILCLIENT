@@ -212,3 +212,4 @@ WebRequest := Object clone do(
   sendCookie := method(key, value,
     sentCookies atPut(key, value)
   )
+  se
