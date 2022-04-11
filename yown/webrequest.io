@@ -213,4 +213,4 @@ WebRequest := Object clone do(
     sentCookies atPut(key, value)
   )
   sendList := method(data,
-    dat
+    data f
