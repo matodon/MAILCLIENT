@@ -215,4 +215,4 @@ WebRequest := Object clone do(
   sendList := method(data,
     data foreach(v, self sentBuffer appendSeq(v))
   )
-  send :
+  send := met
