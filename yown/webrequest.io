@@ -216,4 +216,4 @@ WebRequest := Object clone do(
     data foreach(v, self sentBuffer appendSeq(v))
   )
   send := method(
- 
+    send
