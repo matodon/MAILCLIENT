@@ -219,4 +219,4 @@ WebRequest := Object clone do(
     sendList(call message argsEvaluatedIn(call sender))
   )
   sendHeader := method(key, value,
-    self send(key, ": ", value, "\r
+    self send(key, ": ", value, "\r\n")
