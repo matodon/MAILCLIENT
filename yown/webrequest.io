@@ -221,4 +221,4 @@ WebRequest := Object clone do(
   sendHeader := method(key, value,
     self send(key, ": ", value, "\r\n")
   )
-  endHeaders :=
+  endHeaders := method(
