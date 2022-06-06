@@ -224,4 +224,4 @@ WebRequest := Object clone do(
   endHeaders := method(
     self send("\r\n")
   )
-  send
+  sendRespo
