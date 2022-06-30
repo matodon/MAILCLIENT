@@ -225,4 +225,5 @@ WebRequest := Object clone do(
     self send("\r\n")
   )
   sendResponse := method(code, message,
-    self responseCode := co
+    self responseCode := code
+   
