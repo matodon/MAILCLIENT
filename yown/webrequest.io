@@ -227,3 +227,4 @@ WebRequest := Object clone do(
   sendResponse := method(code, message,
     self responseCode := code
     self responseMessage := message
+  )
