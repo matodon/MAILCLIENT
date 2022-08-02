@@ -229,4 +229,5 @@ WebRequest := Object clone do(
     self responseMessage := message
   )
   flush := method(
-    self removeSlot("sentBuffer"
+    self removeSlot("sentBuffer")
+  
