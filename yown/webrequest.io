@@ -231,4 +231,4 @@ WebRequest := Object clone do(
   flush := method(
     self removeSlot("sentBuffer")
   )
-  done := 
+  done := meth
