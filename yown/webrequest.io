@@ -232,4 +232,4 @@ WebRequest := Object clone do(
     self removeSlot("sentBuffer")
   )
   done := method(
-    self mySocket st
+    self mySocket streamWr
