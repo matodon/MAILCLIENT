@@ -232,3 +232,4 @@ WebRequest := Object clone do(
     self removeSlot("sentBuffer")
   )
   done := method(
+    s
