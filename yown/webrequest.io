@@ -233,4 +233,4 @@ WebRequest := Object clone do(
   )
   done := method(
     self mySocket streamWrite(
-     
+      "H
