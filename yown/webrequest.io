@@ -233,4 +233,4 @@ WebRequest := Object clone do(
   )
   done := method(
     self mySocket streamWrite(
-      "HTTP/1.1 " .
+      "HTTP/1.1 " .. sel
