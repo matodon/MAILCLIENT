@@ -236,4 +236,4 @@ WebRequest := Object clone do(
       "HTTP/1.1 " .. self responseCode asString .. " " ..
       self responseMessage .. "\r\n"
     )
-    self 
+    self sentCook
