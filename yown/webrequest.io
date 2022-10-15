@@ -234,4 +234,5 @@ WebRequest := Object clone do(
   done := method(
     self mySocket streamWrite(
       "HTTP/1.1 " .. self responseCode asString .. " " ..
-      self responseMessage .. "\r\
+      self responseMessage .. "\r\n"
+  
