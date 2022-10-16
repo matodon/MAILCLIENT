@@ -237,4 +237,4 @@ WebRequest := Object clone do(
       self responseMessage .. "\r\n"
     )
     self sentCookies foreach(key, value,
-      self mySocket stre
+      self mySocket streamWri
