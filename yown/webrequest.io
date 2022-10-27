@@ -240,4 +240,4 @@ WebRequest := Object clone do(
       self mySocket streamWrite(
         "Set-cookie: " .. key .. "=" .. value .. "\r\n"
       )
-  
+    )
