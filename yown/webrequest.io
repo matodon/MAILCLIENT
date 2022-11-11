@@ -241,4 +241,4 @@ WebRequest := Object clone do(
         "Set-cookie: " .. key .. "=" .. value .. "\r\n"
       )
     )
-    self mySocket stre
+    self mySocket streamW
