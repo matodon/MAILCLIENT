@@ -242,4 +242,4 @@ WebRequest := Object clone do(
       )
     )
     self mySocket streamWrite(sentBuffer asString)
-    // writeln(sentBuffer asStrin
+    // writeln(sentBuffer asString) // de
