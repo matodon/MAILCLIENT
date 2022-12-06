@@ -245,4 +245,4 @@ WebRequest := Object clone do(
     // writeln(sentBuffer asString) // debug
     self flush
   )
-  clo
+  close :=
