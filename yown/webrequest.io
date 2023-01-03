@@ -246,4 +246,4 @@ WebRequest := Object clone do(
     self flush
   )
   close := method(
-    self hasSlot("sentBuffer") ifTrue(sel
+    self hasSlot("sentBuffer") ifTrue(self done)
