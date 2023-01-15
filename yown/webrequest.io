@@ -248,4 +248,5 @@ WebRequest := Object clone do(
   close := method(
     self hasSlot("sentBuffer") ifTrue(self done)
     self mySocket close
-  
+  )
+)
