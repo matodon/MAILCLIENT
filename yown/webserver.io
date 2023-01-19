@@ -11,3 +11,8 @@ MyHandler := WebRequest clone do(
   handleRequest := method(request,
     self sendResponse (200, "OK")
     self sendHeader ("Content-type", "text/HTML")
+    self endHeaders ()
+    self send(app handleRequest(request))
+    self close
+  )
+)
