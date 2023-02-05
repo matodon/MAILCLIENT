@@ -16,3 +16,7 @@ MyHandler := WebRequest clone do(
     self close
   )
 )
+
+WebServer := Server clone do(
+  setPort(8010)
+  handleSocket := method(aSocket,
