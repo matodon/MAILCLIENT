@@ -20,3 +20,8 @@ MyHandler := WebRequest clone do(
 WebServer := Server clone do(
   setPort(8010)
   handleSocket := method(aSocket,
+    handler := Yown MyHandler clone
+    handler app := app
+    handler @handleSocket(aSocket)
+  )
+  run := method(app,
