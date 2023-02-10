@@ -25,3 +25,7 @@ WebServer := Server clone do(
     handler @handleSocket(aSocket)
   )
   run := method(app,
+    self setSlot("app", app)
+    start
+  )
+)
