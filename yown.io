@@ -15,3 +15,10 @@ Yown := Object clone do(
   // The `get`, `put`, etc.
   // (Incoming action handlers)
   //
+  handlers := Map clone
+  list("get", "post", "put", "delete") foreach(action,
+    handlers atPut(action, List clone)
+    setSlot(action, 
+      method(url, addHandler(call message name, url, call message argAt(1)))
+    )
+  )
