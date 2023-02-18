@@ -22,3 +22,6 @@ Yown := Object clone do(
       method(url, addHandler(call message name, url, call message argAt(1)))
     )
   )
+
+  addHandler := method(action, url, block,
+    handlers at(action) append(list("^#{url}$" interpolate asRegex, block))
