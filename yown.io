@@ -38,3 +38,9 @@ Yown := Object clone do(
 
   //
   // Starts the builtin server
+  //
+  run := method(
+    WebServer run(self)
+  )
+
+  //
