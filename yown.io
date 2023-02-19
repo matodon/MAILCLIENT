@@ -25,3 +25,11 @@ Yown := Object clone do(
 
   addHandler := method(action, url, block,
     handlers at(action) append(list("^#{url}$" interpolate asRegex, block))
+  )
+
+  handleRequest := method(req,
+    match := handlers at(req command asLowercase) detect(l,
+      req queryPath matchesRegex(l at(0)) 
+    )
+    if (match,
+      doMessage(match at(1)),
