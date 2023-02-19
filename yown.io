@@ -44,3 +44,7 @@ Yown := Object clone do(
   )
 
   //
+  // Main HTML method
+  //
+  html := method(
+    Builder doMessage(call message)
