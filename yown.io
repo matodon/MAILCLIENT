@@ -33,3 +33,8 @@ Yown := Object clone do(
     )
     if (match,
       doMessage(match at(1)),
+      "404 NOT FOUND")
+  )
+
+  //
+  // Starts the builtin server
